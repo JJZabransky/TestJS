@@ -21,10 +21,9 @@ const as = new Autoservis("Bruzek Car", auta);
 function VsechnaAuta() {
     auta.forEach(element => {
         return element.rokVyroby + " " + element.znacka + " " + element.model + " " + element.najeteKilometry;
-    })
-    
+    });
 }
 
 const carButton = document.getElementById("VsechnaAuta");
 
-carButton.addEventListener('click',VsechnaAuta);
+carButton.addEventListener('click',console.log(VsechnaAuta));

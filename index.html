@@ -5,14 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <p>Bruzek Car</p>
-    </header>
-    
-    <input type="button" id="VsechnaAuta" value="Vsechna Auta">
+    <h1>Bruzek Car</h1>
+    <h2>Overview</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae consectetur facilis iste maxime asperiores dolores architecto veniam, eligendi expedita aliquam, nihil saepe sapiente illo! Tenetur doloribus impedit natus neque inventore?
+    Sunt unde ab assumenda voluptas sint expedita magni quos ipsa quibusdam? At quaerat debitis non dolorum pariatur eos itaque, odit quia omnis cum, nam ad voluptates quis enim iure rerum?
+    Quos accusantium possimus repellendus corrupti deserunt odio dolorum fugit consequuntur, reprehenderit, sed illum consequatur ea? Eum ratione eligendi ipsa necessitatibus molestiae animi provident odio, quisquam eius! Ipsa consectetur suscipit quos.
+    Natus quaerat distinctio animi ex, voluptates incidunt, enim praesentium provident eligendi placeat sequi id eius, sed expedita harum aperiam! Eius voluptates minima consequuntur explicabo voluptatum ipsam debitis itaque, perspiciatis recusandae!
+    Saepe, distinctio? Aliquam facilis sed, consectetur placeat cum ipsa. Quibusdam aut assumenda id est. Quisquam, ducimus voluptate similique repellendus quos esse, culpa assumenda perspiciatis impedit voluptas eligendi ipsam vero facere?
+    Soluta velit vel autem consectetur voluptatem beatae officiis et odio perferendis mollitia praesentium rem aperiam, a unde sit eum! Voluptas dicta quae dolorum quos in quam exercitationem magnam magni eum!</p>
+    <br>
+    <h2>Add new Car</h2>
+    <form>
+        <div class="mb-3">
+          <label for="znacka" class="form-label">Znacka Auta</label>
+          <input type="text" class="form-control" id="znacka">
+        </div>
+        <div class="mb-3">
+          <label for="model" class="form-label">Model Auta</label>
+          <input type="text" class="form-control" id="model">
+        </div>
+        <div class="mb-3">
+            <label for="rokVyroby" class="form-label">Rok Vyroby Auta</label>
+          <input type="text" class="form-control" id="rokVyroby">
+        </div>
+        <div class="mb-3">
+            <label for="najeteKilometry" class="form-label">Najete Kilometry Auta</label>
+            <input type="text" class="form-control" id="najeteKilometry">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br>
+      <div id="buttons">
+        <input type="button" class="btn btn-primary" id="VsechnaAuta" value="Vsechna Auta">
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
